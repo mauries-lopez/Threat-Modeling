@@ -856,7 +856,7 @@
               "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": true,
+              "isWebApplication": false,
               "privilegeLevel": "",
               "threats": [
                 {
@@ -997,7 +997,7 @@
               "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": true,
+              "isWebApplication": false,
               "privilegeLevel": "",
               "threats": [
                 {
@@ -1137,7 +1137,7 @@
               "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": true,
+              "isWebApplication": false,
               "privilegeLevel": "",
               "threats": [
                 {
