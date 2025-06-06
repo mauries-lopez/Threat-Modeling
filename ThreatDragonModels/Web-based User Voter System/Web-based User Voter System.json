@@ -600,6 +600,113 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fills up voter\naccount creation\nform",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Fills up voter\naccount creation\nform"
+            ],
+            "id": "c92d8745-9bd2-4dab-8b96-2fa5a2a488eb",
+            "source": {
+              "x": -220,
+              "y": 600
+            },
+            "target": {
+              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
+              "port": "6e4da6b2-3eba-48f8-b3cf-7e05f53f7570"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request a password",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request a password"
+            ],
+            "id": "3d2193a3-ccb8-4826-875f-73b37737a5c5",
+            "source": {
+              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
+              "port": "e7513b8c-7897-415c-bc56-a89eb265f313"
+            },
+            "target": {
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "0b8b69c4-30b7-480e-a09d-c50da0225232"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 1035
+              },
+              {
+                "x": 440,
+                "y": 950
+              },
+              {
+                "x": 440,
+                "y": 620
+              },
+              {
+                "x": 410,
+                "y": 530
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
             "zIndex": 11,
             "connector": "smooth",
             "data": {
@@ -1596,6 +1703,125 @@
             },
             "vertices": [],
             "zIndex": 26
+          },
+          {
+            "position": {
+              "x": -130,
+              "y": 980
+            },
+            "size": {
+              "width": 130,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Voter\nRegistration"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6e4da6b2-3eba-48f8-b3cf-7e05f53f7570"
+                },
+                {
+                  "group": "right",
+                  "id": "e7513b8c-7897-415c-bc56-a89eb265f313"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bfb9e1a1-f794-4db5-807b-c79591e63efe"
+                },
+                {
+                  "group": "left",
+                  "id": "8d3dd0fc-a1ab-4100-ba46-6318ee75fa1b"
+                }
+              ]
+            },
+            "id": "154df814-be76-41c2-9f26-04655d6b8b2b",
+            "zIndex": 27,
+            "data": {
+              "type": "tm.Process",
+              "name": "Voter\nRegistration",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
           }
         ],
         "description": "Practical Exercise #1"
