@@ -720,6 +720,76 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fills up the\ncandidate registration\nform",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Fills up the\ncandidate registration\nform"
+            ],
+            "id": "68a47c6f-37ed-450d-b926-b0339affaa3b",
+            "source": {
+              "x": -230,
+              "y": 600
+            },
+            "target": {
+              "cell": "012717cc-06a4-4f42-859e-a2cd01d48c63",
+              "port": "8d3dd0fc-a1ab-4100-ba46-6318ee75fa1b"
+            },
+            "vertices": [
+              {
+                "x": -240,
+                "y": 720
+              },
+              {
+                "x": -210,
+                "y": 760
+              },
+              {
+                "x": -140,
+                "y": 760
+              },
+              {
+                "x": -120,
+                "y": 840
+              },
+              {
+                "x": -120,
+                "y": 1120
+              },
+              {
+                "x": -100,
+                "y": 1180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
             "zIndex": 11,
             "connector": "smooth",
             "data": {
@@ -1442,6 +1512,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -1534,8 +1605,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 22
+            }
           },
           {
             "shape": "flow",
@@ -1553,6 +1623,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 23,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1579,8 +1650,7 @@
               "x": -340,
               "y": 180
             },
-            "vertices": [],
-            "zIndex": 23
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1598,6 +1668,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 24,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1624,8 +1695,7 @@
               "x": -538,
               "y": 222
             },
-            "vertices": [],
-            "zIndex": 24
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1643,6 +1713,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 25,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1669,8 +1740,7 @@
               "x": -348,
               "y": 812
             },
-            "vertices": [],
-            "zIndex": 25
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1688,6 +1758,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 26,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1714,8 +1785,7 @@
               "x": -546,
               "y": 874
             },
-            "vertices": [],
-            "zIndex": 26
+            "vertices": []
           },
           {
             "position": {
@@ -1738,6 +1808,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -1821,7 +1892,6 @@
               ]
             },
             "id": "154df814-be76-41c2-9f26-04655d6b8b2b",
-            "zIndex": 27,
             "data": {
               "type": "tm.Process",
               "name": "Voter\nRegistration",
@@ -1854,6 +1924,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -1937,7 +2008,6 @@
               ]
             },
             "id": "012717cc-06a4-4f42-859e-a2cd01d48c63",
-            "zIndex": 28,
             "data": {
               "type": "tm.Process",
               "name": "Process",
