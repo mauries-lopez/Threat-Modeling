@@ -735,6 +735,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 14,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -761,8 +762,97 @@
               "x": 230,
               "y": 450
             },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Wait and get\nresponse",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Wait and get\nresponse"
+            ],
+            "id": "a1392062-97dd-4a11-9711-2cde73279108",
+            "source": {
+              "x": 132,
+              "y": 782
+            },
+            "target": {
+              "x": 132,
+              "y": 602
+            },
             "vertices": [],
-            "zIndex": 14
+            "zIndex": 15
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Call and \nExecute\nSmart Contract",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Call and \nExecute\nSmart Contract"
+            ],
+            "id": "55fa97c3-8711-4103-86d5-eba8026c478d",
+            "source": {
+              "x": 222,
+              "y": 602
+            },
+            "target": {
+              "x": 222,
+              "y": 782
+            },
+            "vertices": [],
+            "zIndex": 16
           }
         ],
         "description": "Practical Exercise #1"
