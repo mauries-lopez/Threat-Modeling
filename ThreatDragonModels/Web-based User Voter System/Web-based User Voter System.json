@@ -629,16 +629,20 @@
             },
             "vertices": [
               {
-                "x": 270,
-                "y": 1045
+                "x": 290,
+                "y": 970
+              },
+              {
+                "x": 370,
+                "y": 890
+              },
+              {
+                "x": 370,
+                "y": 600
               },
               {
                 "x": 330,
-                "y": 940
-              },
-              {
-                "x": 330,
-                "y": 610
+                "y": 530
               }
             ]
           },
@@ -662,7 +666,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Fills up voter\naccount creation\nform",
+              "name": "Fills up\nthe voter\naccount creation\nform",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -674,9 +678,9 @@
               "threats": []
             },
             "labels": [
-              "Fills up voter\naccount creation\nform"
+              "Fills up\nthe voter\naccount creation\nform"
             ],
-            "id": "c92d8745-9bd2-4dab-8b96-2fa5a2a488eb",
+            "id": "1590bdd6-473d-4186-8bee-9d72630ea997",
             "source": {
               "x": -200,
               "y": 600
@@ -687,16 +691,16 @@
             },
             "vertices": [
               {
-                "x": -190,
-                "y": 640
+                "x": -170,
+                "y": 660
               },
               {
-                "x": -140,
-                "y": 640
+                "x": -20,
+                "y": 660
               },
               {
-                "x": -115,
-                "y": 710
+                "x": 20,
+                "y": 780
               }
             ]
           },
@@ -1715,8 +1719,8 @@
           },
           {
             "position": {
-              "x": -180,
-              "y": 990
+              "x": -45,
+              "y": 915
             },
             "size": {
               "width": 130,
@@ -1821,6 +1825,122 @@
             "data": {
               "type": "tm.Process",
               "name": "Voter\nRegistration",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -60,
+              "y": 1125
+            },
+            "size": {
+              "width": 160,
+              "height": 110
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6e4da6b2-3eba-48f8-b3cf-7e05f53f7570"
+                },
+                {
+                  "group": "right",
+                  "id": "e7513b8c-7897-415c-bc56-a89eb265f313"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bfb9e1a1-f794-4db5-807b-c79591e63efe"
+                },
+                {
+                  "group": "left",
+                  "id": "8d3dd0fc-a1ab-4100-ba46-6318ee75fa1b"
+                }
+              ]
+            },
+            "id": "012717cc-06a4-4f42-859e-a2cd01d48c63",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
