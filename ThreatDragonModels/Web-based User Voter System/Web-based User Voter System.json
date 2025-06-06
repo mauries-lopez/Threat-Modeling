@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 735,
-              "y": 240
+              "x": 85,
+              "y": 460
             },
             "size": {
               "width": 180,
@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": 755,
-              "y": 500
+              "x": 105,
+              "y": 790
             },
             "size": {
               "width": 140,
@@ -257,8 +257,8 @@
           },
           {
             "position": {
-              "x": 725,
-              "y": 30
+              "x": 85,
+              "y": 150
             },
             "size": {
               "width": 180,
@@ -380,8 +380,8 @@
           },
           {
             "position": {
-              "x": 250,
-              "y": 250
+              "x": -400,
+              "y": 470
             },
             "size": {
               "width": 240,
@@ -530,12 +530,57 @@
             ],
             "id": "75100585-0f8e-4ba5-94dd-6bcb2d259b91",
             "source": {
-              "x": 500,
-              "y": 260
+              "x": -150,
+              "y": 480
             },
             "target": {
-              "x": 760,
-              "y": 260
+              "x": 110,
+              "y": 480
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Student Voter \nEthereum Account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Student Voter \nEthereum Account"
+            ],
+            "id": "1fef9348-06ec-4307-bc2e-f0dcfe1f67bc",
+            "source": {
+              "x": 120,
+              "y": 450
+            },
+            "target": {
+              "x": 120,
+              "y": 270
             },
             "vertices": []
           },
@@ -575,12 +620,12 @@
             ],
             "id": "36badcf7-5918-4c4c-994f-cc5de7aad457",
             "source": {
-              "x": 750,
-              "y": 290
+              "x": 100,
+              "y": 510
             },
             "target": {
-              "x": 500,
-              "y": 290
+              "x": -150,
+              "y": 510
             },
             "vertices": []
           },
@@ -620,12 +665,12 @@
             ],
             "id": "eeb1d284-35ae-4bf4-8d8a-da69e1749b7b",
             "source": {
-              "x": 510,
-              "y": 330
+              "x": -140,
+              "y": 550
             },
             "target": {
-              "x": 750,
-              "y": 330
+              "x": 100,
+              "y": 550
             },
             "vertices": []
           },
@@ -665,14 +710,59 @@
             ],
             "id": "ceb572b8-00c2-4345-b7e4-6e6a995ac6ba",
             "source": {
-              "x": 750,
-              "y": 360
+              "x": 100,
+              "y": 580
             },
             "target": {
-              "x": 500,
-              "y": 360
+              "x": -150,
+              "y": 580
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return\nCredentials",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return\nCredentials"
+            ],
+            "id": "31c56344-b468-4d95-9fd5-5a3eb096fd3e",
+            "source": {
+              "x": 230,
+              "y": 270
+            },
+            "target": {
+              "x": 230,
+              "y": 450
+            },
+            "vertices": [],
+            "zIndex": 14
           }
         ],
         "description": "Practical Exercise #1"
