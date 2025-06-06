@@ -1,0 +1,16 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Practical Exercise #1",
+    "owner": "Mauries Lopez",
+    "description": "A database of student voters will be prepared beforehand using MongoDB as the database management system which will also serve to authenticate the validity of a student to cast their vote. The web application developed with HTML5, CSS3,  JavaScript, and Handlebars will allow its users to authenticate themselves as well as cast their votes for the ballot. These requests will be handled by a Node.js server that implements RESTful API to authenticate student login and voting status, \nand Web3.js to interact with the Ethereum node which then requests a transaction to the Ethereum network and \nsubsequently add the transaction to the block once validated by a smart contract. The node then returns the status of the transaction to the server which then updates the web application interface to display the transaction status on the client’s \nside. ",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
