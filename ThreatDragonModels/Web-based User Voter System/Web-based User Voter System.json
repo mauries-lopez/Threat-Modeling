@@ -514,7 +514,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Student Voter Login",
+              "name": "Student Voter \nEthereum Account",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -526,16 +526,16 @@
               "threats": []
             },
             "labels": [
-              "Student Voter Login"
+              "Student Voter \nEthereum Account"
             ],
-            "id": "75100585-0f8e-4ba5-94dd-6bcb2d259b91",
+            "id": "1fef9348-06ec-4307-bc2e-f0dcfe1f67bc",
             "source": {
-              "x": -150,
-              "y": 480
+              "x": 120,
+              "y": 450
             },
             "target": {
-              "x": 110,
-              "y": 480
+              "x": 120,
+              "y": 270
             },
             "vertices": []
           },
@@ -559,7 +559,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Student Voter \nEthereum Account",
+              "name": "Student Voter Login",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -571,16 +571,16 @@
               "threats": []
             },
             "labels": [
-              "Student Voter \nEthereum Account"
+              "Student Voter Login"
             ],
-            "id": "1fef9348-06ec-4307-bc2e-f0dcfe1f67bc",
+            "id": "75100585-0f8e-4ba5-94dd-6bcb2d259b91",
             "source": {
-              "x": 120,
-              "y": 450
+              "x": -150,
+              "y": 480
             },
             "target": {
-              "x": 120,
-              "y": 270
+              "x": 110,
+              "y": 480
             },
             "vertices": []
           },
@@ -780,6 +780,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 15,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -806,8 +807,7 @@
               "x": 132,
               "y": 602
             },
-            "vertices": [],
-            "zIndex": 15
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -825,6 +825,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 16,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -851,8 +852,451 @@
               "x": 222,
               "y": 782
             },
+            "vertices": []
+          },
+          {
+            "position": {
+              "x": -345,
+              "y": 145
+            },
+            "size": {
+              "width": 130,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Voter\nAuthentication"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "83a0386f-81ea-4142-ac2a-7713e2bb7db6"
+                },
+                {
+                  "group": "right",
+                  "id": "640239ca-8706-4b7e-afae-2bbaf0db9598"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0370008c-6e5c-4281-984f-c823496df412"
+                },
+                {
+                  "group": "left",
+                  "id": "dc568e25-5e0e-496a-9da0-4545ad180a11"
+                }
+              ]
+            },
+            "id": "2e75575d-eabc-4069-b454-50ac3dadcac1",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Process",
+              "name": "Voter\nAuthentication",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "children": [
+              "12dfb4f0-3627-46bb-bc1a-dd40093a441b"
+            ]
+          },
+          {
+            "position": {
+              "x": -350,
+              "y": 775
+            },
+            "size": {
+              "width": 140,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Election \nAdministrator \nAuthentication"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "83a0386f-81ea-4142-ac2a-7713e2bb7db6"
+                },
+                {
+                  "group": "right",
+                  "id": "640239ca-8706-4b7e-afae-2bbaf0db9598"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0370008c-6e5c-4281-984f-c823496df412"
+                },
+                {
+                  "group": "left",
+                  "id": "dc568e25-5e0e-496a-9da0-4545ad180a11"
+                }
+              ]
+            },
+            "id": "ae3284dc-b050-4d1f-8f7c-c50ff0630ef2",
+            "data": {
+              "type": "tm.Process",
+              "name": "Election \nAdministrator \nAuthentication",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 18
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Render administrator dashboard",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Render administrator dashboard"
+            ],
+            "id": "6ae9eb59-678b-4231-acdd-a696952e69bf",
+            "source": {
+              "cell": "ae3284dc-b050-4d1f-8f7c-c50ff0630ef2",
+              "port": "83a0386f-81ea-4142-ac2a-7713e2bb7db6"
+            },
+            "target": {
+              "cell": "d9efb003-c7b6-4269-9ea8-eebfeff0abd3",
+              "port": "de26d113-1c56-4ea1-8541-61a2a55ef978"
+            },
             "vertices": [],
-            "zIndex": 16
+            "zIndex": 19
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Render voter dashboard",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Render voter dashboard"
+            ],
+            "id": "0e43e332-2992-465f-a55a-751be0e7e980",
+            "source": {
+              "cell": "2e75575d-eabc-4069-b454-50ac3dadcac1",
+              "port": "0370008c-6e5c-4281-984f-c823496df412"
+            },
+            "target": {
+              "cell": "d9efb003-c7b6-4269-9ea8-eebfeff0abd3",
+              "port": "d96920a4-4f69-48b6-ad79-8eedc2187eea"
+            },
+            "vertices": [],
+            "zIndex": 20
+          },
+          {
+            "position": {
+              "x": -800,
+              "y": 140
+            },
+            "size": {
+              "width": 240,
+              "height": 120
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6ae54388-3417-4c4c-8300-7d97216ce7a2"
+                },
+                {
+                  "group": "right",
+                  "id": "ea7a2a28-f060-4af9-bbff-40f534593e53"
+                },
+                {
+                  "group": "bottom",
+                  "id": "25ca5791-c1cf-4ba3-8368-e4ddb3c28fe3"
+                },
+                {
+                  "group": "left",
+                  "id": "d5085e0f-0ce4-430c-8acb-08d830c7ffcb"
+                }
+              ]
+            },
+            "id": "db8e6425-73e3-439f-ab2d-eddf5a72dfca",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ],
         "description": "Practical Exercise #1"
