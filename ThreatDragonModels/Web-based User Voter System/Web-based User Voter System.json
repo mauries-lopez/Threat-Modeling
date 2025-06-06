@@ -1978,6 +1978,9 @@
               "height": 110
             },
             "attrs": {
+              "text": {
+                "text": "Candidate\nRegistration"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -2072,7 +2075,7 @@
             "id": "012717cc-06a4-4f42-859e-a2cd01d48c63",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Candidate\nRegistration",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
