@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "NodeJS\nServer",
@@ -157,6 +157,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -252,8 +253,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 2
+            }
           },
           {
             "position": {
@@ -279,6 +279,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -362,7 +363,6 @@
               ]
             },
             "id": "2543b357-7f64-451a-8660-068af300c86f",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "DBMS\n(Student Voter Information)",
@@ -399,6 +399,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -482,7 +483,6 @@
               ]
             },
             "id": "d9efb003-c7b6-4269-9ea8-eebfeff0abd3",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Client Web Browser",
@@ -493,6 +493,191 @@
               "providesAuthentication": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Student Voter Login",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Student Voter Login"
+            ],
+            "id": "75100585-0f8e-4ba5-94dd-6bcb2d259b91",
+            "source": {
+              "x": 80,
+              "y": 440
+            },
+            "target": {
+              "x": 310,
+              "y": 440
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authenticated Send Token",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Authenticated Send Token"
+            ],
+            "id": "36badcf7-5918-4c4c-994f-cc5de7aad457",
+            "source": {
+              "x": 330,
+              "y": 470
+            },
+            "target": {
+              "x": 80,
+              "y": 470
+            },
+            "vertices": [],
+            "zIndex": 11
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Ballot and Cast Vote",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request Ballot and Cast Vote"
+            ],
+            "id": "eeb1d284-35ae-4bf4-8d8a-da69e1749b7b",
+            "source": {
+              "x": 72,
+              "y": 512
+            },
+            "target": {
+              "x": 330,
+              "y": 510
+            },
+            "vertices": [],
+            "zIndex": 12
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "ceb572b8-00c2-4345-b7e4-6e6a995ac6ba",
+            "source": {
+              "x": 330,
+              "y": 540
+            },
+            "target": {
+              "x": 80,
+              "y": 540
+            },
+            "vertices": [],
+            "zIndex": 13
           }
         ],
         "description": "Practical Exercise #1"
