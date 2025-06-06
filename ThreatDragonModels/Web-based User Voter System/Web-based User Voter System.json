@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 710,
-              "y": 250
+              "x": 735,
+              "y": 240
             },
             "size": {
-              "width": 110,
-              "height": 110
+              "width": 180,
+              "height": 140
             },
             "attrs": {
               "text": {
@@ -138,7 +138,7 @@
           },
           {
             "position": {
-              "x": 695,
+              "x": 755,
               "y": 500
             },
             "size": {
@@ -257,7 +257,7 @@
           },
           {
             "position": {
-              "x": 675,
+              "x": 725,
               "y": 30
             },
             "size": {
@@ -380,12 +380,12 @@
           },
           {
             "position": {
-              "x": 270,
+              "x": 250,
               "y": 250
             },
             "size": {
-              "width": 220,
-              "height": 110
+              "width": 240,
+              "height": 120
             },
             "attrs": {
               "text": {
@@ -530,19 +530,14 @@
             ],
             "id": "75100585-0f8e-4ba5-94dd-6bcb2d259b91",
             "source": {
-              "x": 80,
-              "y": 440
+              "x": 500,
+              "y": 260
             },
             "target": {
-              "x": 310,
-              "y": 440
+              "x": 760,
+              "y": 260
             },
-            "vertices": [
-              {
-                "x": 220,
-                "y": 440
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -560,6 +555,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -579,15 +575,14 @@
             ],
             "id": "36badcf7-5918-4c4c-994f-cc5de7aad457",
             "source": {
-              "x": 330,
-              "y": 470
+              "x": 750,
+              "y": 290
             },
             "target": {
-              "x": 80,
-              "y": 470
+              "x": 500,
+              "y": 290
             },
-            "vertices": [],
-            "zIndex": 11
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -605,6 +600,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 12,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -624,15 +620,14 @@
             ],
             "id": "eeb1d284-35ae-4bf4-8d8a-da69e1749b7b",
             "source": {
-              "x": 72,
-              "y": 512
+              "x": 510,
+              "y": 330
             },
             "target": {
-              "x": 330,
-              "y": 510
+              "x": 750,
+              "y": 330
             },
-            "vertices": [],
-            "zIndex": 12
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -650,6 +645,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 13,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -669,15 +665,14 @@
             ],
             "id": "ceb572b8-00c2-4345-b7e4-6e6a995ac6ba",
             "source": {
-              "x": 330,
-              "y": 540
+              "x": 750,
+              "y": 360
             },
             "target": {
-              "x": 80,
-              "y": 540
+              "x": 500,
+              "y": 360
             },
-            "vertices": [],
-            "zIndex": 13
+            "vertices": []
           }
         ],
         "description": "Practical Exercise #1"
