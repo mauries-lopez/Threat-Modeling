@@ -790,6 +790,68 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Candidates' information",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Candidates' information"
+            ],
+            "id": "88b86f09-0145-4099-91de-5fd97195f8b9",
+            "source": {
+              "x": 100,
+              "y": 1180
+            },
+            "target": {
+              "cell": "2543b357-7f64-451a-8660-068af300c86f",
+              "port": "3bac1f4a-81af-4b5b-bdcb-3654d1e2d4a3"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 1180
+              },
+              {
+                "x": 480,
+                "y": 1020
+              },
+              {
+                "x": 480,
+                "y": 370
+              },
+              {
+                "x": 420,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
             "zIndex": 11,
             "connector": "smooth",
             "data": {
