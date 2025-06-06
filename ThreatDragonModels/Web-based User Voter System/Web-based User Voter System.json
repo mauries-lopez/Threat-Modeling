@@ -604,7 +604,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Fills up voter\naccount creation\nform",
+              "name": "Request \na password",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -616,18 +616,31 @@
               "threats": []
             },
             "labels": [
-              "Fills up voter\naccount creation\nform"
+              "Request \na password"
             ],
-            "id": "c92d8745-9bd2-4dab-8b96-2fa5a2a488eb",
+            "id": "3d2193a3-ccb8-4826-875f-73b37737a5c5",
             "source": {
-              "x": -220,
-              "y": 600
+              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
+              "port": "e7513b8c-7897-415c-bc56-a89eb265f313"
             },
             "target": {
-              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
-              "port": "6e4da6b2-3eba-48f8-b3cf-7e05f53f7570"
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "0b8b69c4-30b7-480e-a09d-c50da0225232"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 270,
+                "y": 1045
+              },
+              {
+                "x": 330,
+                "y": 940
+              },
+              {
+                "x": 330,
+                "y": 610
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -649,7 +662,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request a password",
+              "name": "Fills up voter\naccount creation\nform",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -661,33 +674,29 @@
               "threats": []
             },
             "labels": [
-              "Request a password"
+              "Fills up voter\naccount creation\nform"
             ],
-            "id": "3d2193a3-ccb8-4826-875f-73b37737a5c5",
+            "id": "c92d8745-9bd2-4dab-8b96-2fa5a2a488eb",
             "source": {
-              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
-              "port": "e7513b8c-7897-415c-bc56-a89eb265f313"
+              "x": -200,
+              "y": 600
             },
             "target": {
-              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
-              "port": "0b8b69c4-30b7-480e-a09d-c50da0225232"
+              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
+              "port": "6e4da6b2-3eba-48f8-b3cf-7e05f53f7570"
             },
             "vertices": [
               {
-                "x": 370,
-                "y": 1035
+                "x": -190,
+                "y": 640
               },
               {
-                "x": 440,
-                "y": 950
+                "x": -140,
+                "y": 640
               },
               {
-                "x": 440,
-                "y": 620
-              },
-              {
-                "x": 410,
-                "y": 530
+                "x": -115,
+                "y": 710
               }
             ]
           },
@@ -1706,8 +1715,8 @@
           },
           {
             "position": {
-              "x": -130,
-              "y": 980
+              "x": -180,
+              "y": 990
             },
             "size": {
               "width": 130,
