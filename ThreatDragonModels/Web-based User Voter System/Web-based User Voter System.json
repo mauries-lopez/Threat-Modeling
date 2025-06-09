@@ -2254,7 +2254,7 @@
               "y": 110
             },
             "target": {
-              "x": 620,
+              "x": 610,
               "y": 110
             },
             "vertices": []
@@ -2280,7 +2280,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Return Validation",
-              "description": "",
+              "description": "If valid goes rendering will start if not the voter receives an error and can try again",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -2295,18 +2295,63 @@
             ],
             "id": "dadb072d-f18f-47d4-9645-93b57304a9ab",
             "source": {
-              "x": 630,
+              "x": 610,
               "y": 160
             },
             "target": {
-              "x": 350,
+              "x": 340,
               "y": 160
             },
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validates Credentials",
+              "description": "Checks if the credentials match/exist in the database, returns validation",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Validates Credentials"
+            ],
+            "id": "7ad2adab-1174-47ea-a263-e76521caf507",
+            "source": {
+              "x": 760,
+              "y": 150
+            },
+            "target": {
+              "x": 970,
+              "y": 150
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 620,
+              "x": 610,
               "y": 55
             },
             "size": {
@@ -2425,8 +2470,8 @@
           },
           {
             "position": {
-              "x": 986,
-              "y": 85
+              "x": 590,
+              "y": 350
             },
             "size": {
               "width": 180,
@@ -2576,14 +2621,182 @@
             ],
             "id": "a5b846ed-5bbc-46f6-8422-9d8f6af89cad",
             "source": {
-              "cell": "db59354e-d9b7-45c6-97f8-3983cfdfdae4",
-              "port": "48a6cb28-ecf5-483f-ab1b-af734da4f25f"
+              "x": 680,
+              "y": 200
             },
             "target": {
               "cell": "3b8addb7-7ead-4d3b-a3e7-77993a36790a",
-              "port": "4c9aaf73-55c6-4087-83f4-75b0888e42eb"
+              "port": "7a537629-7c0e-4a03-95bd-83dce49ce08e"
             },
             "vertices": []
+          },
+          {
+            "position": {
+              "x": 970,
+              "y": 85
+            },
+            "size": {
+              "width": 190,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "MongoDB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d2a30e11-3b6d-449a-82b7-2932e832410c"
+                },
+                {
+                  "group": "right",
+                  "id": "d50cf1d3-35f5-42b7-93dd-bb6be3ca366f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e0811ac7-46bb-4841-9c3d-229e432a889e"
+                },
+                {
+                  "group": "left",
+                  "id": "71eda7ff-c1d5-4f66-aaf7-93a683ff45be"
+                }
+              ]
+            },
+            "id": "b52235bb-2454-45a6-95b3-22723ae4700e",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Store",
+              "name": "MongoDB",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Returns results",
+              "description": "Checks if the credentials match/exist in the database, returns validation",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Returns results"
+            ],
+            "id": "f99b2f87-32cb-4d2f-af24-ab5d4537697c",
+            "source": {
+              "x": 960,
+              "y": 100
+            },
+            "target": {
+              "x": 760,
+              "y": 100
+            },
+            "vertices": [],
+            "zIndex": 15
           }
         ],
         "description": "PE1 - Voters Authentication"
