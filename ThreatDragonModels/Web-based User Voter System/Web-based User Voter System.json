@@ -3345,6 +3345,51 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Render Dashboard",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Render Dashboard"
+            ],
+            "id": "e3b73d19-f71f-4a8b-a83f-caf1c6459916",
+            "source": {
+              "cell": "9d779b4d-4b5f-4420-8938-d4115824b60f",
+              "port": "c36d5fa7-a270-42ee-9866-86f17c536b90"
+            },
+            "target": {
+              "cell": "d4ea3e4f-6c92-4a04-9e1f-0f0bfa15e5b1",
+              "port": "219775dc-4450-4ff6-a1cb-b0e415d62eb1"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3418,6 +3463,122 @@
             },
             "vertices": [],
             "zIndex": 12
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": 429
+            },
+            "size": {
+              "width": 150,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Client Web Browser"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "219775dc-4450-4ff6-a1cb-b0e415d62eb1"
+                },
+                {
+                  "group": "right",
+                  "id": "adfed8d7-f512-4b28-94b7-3de2099a43fd"
+                },
+                {
+                  "group": "bottom",
+                  "id": "34ebb750-603b-4565-a71b-6cc8fc898551"
+                },
+                {
+                  "group": "left",
+                  "id": "5cab018d-75a9-47cb-9ed8-b84a8c043090"
+                }
+              ]
+            },
+            "id": "d4ea3e4f-6c92-4a04-9e1f-0f0bfa15e5b1",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Client Web Browser",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ],
         "description": "PE1 - Administrator Authentication"
