@@ -2350,6 +2350,42 @@
             "vertices": []
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Perimeter Firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Perimeter Firewall"
+            ],
+            "id": "dca05051-23a1-45dd-a06c-fd893865e5a2",
+            "source": {
+              "x": 560,
+              "y": -210
+            },
+            "target": {
+              "x": 510,
+              "y": 310
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": -120
+              },
+              {
+                "x": 570,
+                "y": 140
+              }
+            ]
+          },
+          {
             "position": {
               "x": 610,
               "y": 55
@@ -2654,6 +2690,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2737,7 +2774,6 @@
               ]
             },
             "id": "b52235bb-2454-45a6-95b3-22723ae4700e",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -2769,6 +2805,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 15,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2795,8 +2832,43 @@
               "x": 760,
               "y": 100
             },
-            "vertices": [],
-            "zIndex": 15
+            "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "Database server trusts calls from the web application's identity",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "a59ace33-0b30-4fd2-9d77-b95105e06290",
+            "source": {
+              "x": 932,
+              "y": -218
+            },
+            "target": {
+              "x": 882,
+              "y": 302
+            },
+            "vertices": [
+              {
+                "x": 942,
+                "y": -128
+              },
+              {
+                "x": 942,
+                "y": 132
+              }
+            ],
+            "zIndex": 16
           }
         ],
         "description": "PE1 - Voters Authentication"
