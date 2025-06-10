@@ -11,7 +11,7 @@
     "diagrams": [
       {
         "id": 2,
-        "title": "STRIDE Diagram",
+        "title": "Practical Exercise #1 ",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -2092,7 +2092,7 @@
       },
       {
         "id": 8,
-        "title": "STRIDE diagram",
+        "title": "PE1 - Voters Authentication",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -2875,7 +2875,7 @@
       },
       {
         "id": 4,
-        "title": "STRIDE diagram",
+        "title": "PE1 - Administrator Authentication",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -3657,7 +3657,7 @@
       },
       {
         "id": 5,
-        "title": "STRIDE diagram",
+        "title": "PE1 - Voter Registration",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -4811,7 +4811,7 @@
       },
       {
         "id": 6,
-        "title": "STRIDE diagram",
+        "title": "PE1 - Candidate Registration",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -5342,7 +5342,7 @@
       },
       {
         "id": 7,
-        "title": "STRIDE diagram",
+        "title": "PE1 - Vote Casting",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -6950,9 +6950,19 @@
           }
         ],
         "description": "PE1 - Vote Casting"
+      },
+      {
+        "id": 9,
+        "title": "PE1 - Ethereum Node",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "DFD for inner workings of Ethereum Node"
       }
     ],
-    "diagramTop": 9,
+    "diagramTop": 10,
     "reviewer": "Pablo Escobar",
     "threatTop": 0
   }
