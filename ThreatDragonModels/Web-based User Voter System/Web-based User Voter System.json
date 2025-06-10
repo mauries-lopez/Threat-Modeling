@@ -19,6 +19,32 @@
         "cells": [
           {
             "position": {
+              "x": 54.99999999999997,
+              "y": 425
+            },
+            "size": {
+              "width": 240,
+              "height": 210
+            },
+            "attrs": {
+              "label": {
+                "text": "Perimeter \nFirewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "1297d086-282b-42cb-9ef5-2004bbe774a4",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Perimeter \nFirewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 85,
               "y": 460
             },
@@ -380,7 +406,7 @@
           },
           {
             "position": {
-              "x": -400,
+              "x": -430,
               "y": 470
             },
             "size": {
@@ -493,158 +519,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Student Voter \nEthereum Account",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Student Voter \nEthereum Account"
-            ],
-            "id": "1fef9348-06ec-4307-bc2e-f0dcfe1f67bc",
-            "source": {
-              "x": 120,
-              "y": 450
-            },
-            "target": {
-              "x": 120,
-              "y": 270
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Student Voter Login",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Student Voter Login"
-            ],
-            "id": "75100585-0f8e-4ba5-94dd-6bcb2d259b91",
-            "source": {
-              "x": -150,
-              "y": 480
-            },
-            "target": {
-              "x": 110,
-              "y": 480
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request \na password",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request \na password"
-            ],
-            "id": "3d2193a3-ccb8-4826-875f-73b37737a5c5",
-            "source": {
-              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
-              "port": "e7513b8c-7897-415c-bc56-a89eb265f313"
-            },
-            "target": {
-              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
-              "port": "0b8b69c4-30b7-480e-a09d-c50da0225232"
-            },
-            "vertices": [
-              {
-                "x": 290,
-                "y": 970
-              },
-              {
-                "x": 370,
-                "y": 890
-              },
-              {
-                "x": 370,
-                "y": 600
-              },
-              {
-                "x": 330,
-                "y": 530
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -837,6 +711,200 @@
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "4a7d960c-f0af-40fc-8638-b3770cce9472",
+            "source": {
+              "x": 30,
+              "y": 760
+            },
+            "target": {
+              "x": 320,
+              "y": 770
+            },
+            "vertices": [
+              {
+                "x": 180,
+                "y": 740
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Student Voter Login",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Student Voter Login"
+            ],
+            "id": "75100585-0f8e-4ba5-94dd-6bcb2d259b91",
+            "source": {
+              "x": -190,
+              "y": 530
+            },
+            "target": {
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "69f1f074-3ab0-4da2-b9c7-6b21a50d3eba"
+            },
+            "vertices": [
+              {
+                "x": -50,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Student Voter \nEthereum Account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Student Voter \nEthereum Account"
+            ],
+            "id": "1fef9348-06ec-4307-bc2e-f0dcfe1f67bc",
+            "source": {
+              "x": 170,
+              "y": 460
+            },
+            "target": {
+              "cell": "2543b357-7f64-451a-8660-068af300c86f",
+              "port": "45b4a5f6-479a-4063-8622-431c6ddd5c12"
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 360
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request \na password",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request \na password"
+            ],
+            "id": "3d2193a3-ccb8-4826-875f-73b37737a5c5",
+            "source": {
+              "cell": "154df814-be76-41c2-9f26-04655d6b8b2b",
+              "port": "e7513b8c-7897-415c-bc56-a89eb265f313"
+            },
+            "target": {
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "0b8b69c4-30b7-480e-a09d-c50da0225232"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 970
+              },
+              {
+                "x": 370,
+                "y": 890
+              },
+              {
+                "x": 370,
+                "y": 600
+              },
+              {
+                "x": 330,
+                "y": 530
+              }
+            ]
+          },
+          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -872,14 +940,19 @@
             ],
             "id": "36badcf7-5918-4c4c-994f-cc5de7aad457",
             "source": {
-              "x": 100,
-              "y": 510
+              "x": 80,
+              "y": 530
             },
             "target": {
-              "x": -150,
-              "y": 510
+              "cell": "d9efb003-c7b6-4269-9ea8-eebfeff0abd3",
+              "port": "9ecd228f-da6c-4308-9f41-4acceda604e0"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -50,
+                "y": 480
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -917,14 +990,19 @@
             ],
             "id": "eeb1d284-35ae-4bf4-8d8a-da69e1749b7b",
             "source": {
-              "x": -140,
-              "y": 550
+              "cell": "d9efb003-c7b6-4269-9ea8-eebfeff0abd3",
+              "port": "9ecd228f-da6c-4308-9f41-4acceda604e0"
             },
             "target": {
-              "x": 100,
-              "y": 550
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "69f1f074-3ab0-4da2-b9c7-6b21a50d3eba"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -50,
+                "y": 550
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -962,14 +1040,19 @@
             ],
             "id": "ceb572b8-00c2-4345-b7e4-6e6a995ac6ba",
             "source": {
-              "x": 100,
-              "y": 580
+              "x": 80,
+              "y": 530
             },
             "target": {
-              "x": -150,
-              "y": 580
+              "cell": "d9efb003-c7b6-4269-9ea8-eebfeff0abd3",
+              "port": "9ecd228f-da6c-4308-9f41-4acceda604e0"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -60,
+                "y": 600
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1007,14 +1090,19 @@
             ],
             "id": "31c56344-b468-4d95-9fd5-5a3eb096fd3e",
             "source": {
-              "x": 230,
-              "y": 270
+              "cell": "2543b357-7f64-451a-8660-068af300c86f",
+              "port": "45b4a5f6-479a-4063-8622-431c6ddd5c12"
             },
             "target": {
-              "x": 230,
-              "y": 450
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "1c64d3d1-f40d-4619-8bed-e928e391e053"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 240,
+                "y": 350
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1052,14 +1140,19 @@
             ],
             "id": "a1392062-97dd-4a11-9711-2cde73279108",
             "source": {
-              "x": 132,
-              "y": 782
+              "cell": "e82d36cc-09bd-4438-96fa-d0d9d2dc0e08",
+              "port": "1c64d3d1-f40d-4619-8bed-e928e391e053"
             },
             "target": {
-              "x": 132,
-              "y": 602
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "a5dfdd2d-d1eb-4aa4-b039-49b278999ee7"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 100,
+                "y": 700
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1097,14 +1190,19 @@
             ],
             "id": "55fa97c3-8711-4103-86d5-eba8026c478d",
             "source": {
-              "x": 222,
-              "y": 602
+              "cell": "e5d34f53-3e20-4a77-9046-d626d9d3a1fb",
+              "port": "a5dfdd2d-d1eb-4aa4-b039-49b278999ee7"
             },
             "target": {
-              "x": 222,
-              "y": 782
+              "cell": "e82d36cc-09bd-4438-96fa-d0d9d2dc0e08",
+              "port": "1c64d3d1-f40d-4619-8bed-e928e391e053"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 222,
+                "y": 690
+              }
+            ]
           },
           {
             "position": {
